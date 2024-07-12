@@ -1,4 +1,4 @@
-import http, { Server } from 'http'
+import http from 'http'
 
 const server = http.createServer((req,resp)=>{
     resp.end("Hello maya");
