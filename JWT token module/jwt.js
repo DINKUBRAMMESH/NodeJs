@@ -5,6 +5,9 @@ let payload={
     uid:"db07",
     upassword:"mdb"
 }
-
-let token = jwt.sign(payload,"xyz");
+let secretKey ="xyz"
+let token = jsonwebtoken.sign(payload,secretKey);
 console.log(token)
+
+let user= jsonwebtoken.verify(token,secretKey)
+console.log(user)
