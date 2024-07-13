@@ -1,7 +1,7 @@
 import http from 'http'
 
 const server = http.createServer((req,resp)=>{
-    resp.end("Hello maya");
+    resp.end(`<h1>Hello mayadb</h1>`);
 });
 
 server.listen(8000,(err)=>{
@@ -9,3 +9,4 @@ server.listen(8000,(err)=>{
     console.log("server running....")
 
 })
+
