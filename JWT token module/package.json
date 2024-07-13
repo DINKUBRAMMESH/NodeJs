@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
+  },
+  "name": "jwt-token-module",
+  "version": "1.0.0",
+  "main": "jwt.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon jwt.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
