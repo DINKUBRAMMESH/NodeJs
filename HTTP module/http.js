@@ -1,4 +1,3 @@
-import { create } from 'domain';
 import http from 'http'
 
 const server = http.createServer((req,resp)=>{
@@ -13,6 +12,7 @@ server.listen(8000,(err)=>{
 
 
 // Another method
+// import http from 'http'
 // http.createServer((req,resp)=>{
 //     resp.end(`<h1>hi maya</h1>`)
 // }).listen(7000,(err)=>{
